@@ -1,6 +1,7 @@
 import vk
 import time
 import datetime
+import platform
 
 print('VKBot')
 
@@ -35,3 +36,8 @@ while(True):
         time.sleep(3)
 
 
+print(platform.system())
+print(platform.platform())
+print(platform.machine())
+print(platform.version())
+print(platform.processor())
